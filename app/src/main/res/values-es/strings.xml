@@ -8,6 +8,7 @@
     <string name="android_core_screen_toast">Toasts</string>
     <string name="android_core_screen_snackbar">Snackbars</string>
     <string name="android_core_screen_localization">Localización</string>
+    <string name="android_core_screen_notifications">Notificaciones</string>
 
     <!-- ANDROID CORE: TOAST SCREEN-->
     <string name="android_core_screen_toast_simple">Toast simplet</string>
@@ -23,4 +24,12 @@
     <string name="android_core_screen_localization_literal">Texto de localización: </string>
     <string name="android_core_screen_localization_info">Intenta cambiar el idioma del dispositivo para ver cambios. Inglés y Español están disponibles</string>
     <string name="android_core_screen_localization_value_example">en</string>
+
+    <!-- ANDROID CORE: NOTIFICATION SCREEN-->
+    <string name="android_core_screen_notification_simple">Notificación simple</string>
+    <string name="android_core_screen_notification_simple_text">Texto de notificación simple</string>
+    <string name="android_core_screen_notification_simple_text_content">Contenido de texto para notificación simple</string>
+    <string name="android_core_screen_notification_loading">Notificacion de progreso</string>
+    <string name="android_core_screen_notification_loading_text">Texto de notificacion de progreso</string>
+    <string name="android_core_screen_notification_loading_content">Contenido de notificacion de progreso</string>
 </resources>

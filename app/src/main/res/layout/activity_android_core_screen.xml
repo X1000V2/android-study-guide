@@ -33,11 +33,19 @@
             app:layout_constraintTop_toBottomOf="@+id/button_toast"/>
 
     <Button
-            android:id="@+id/button_localization"
-            android:text="@string/android_core_screen_localization"
+        android:id="@+id/button_localization"
+        android:text="@string/android_core_screen_localization"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/ButtonStyle"
+        app:layout_constraintTop_toBottomOf="@+id/button_snackbar"/>
+
+    <Button
+            android:id="@+id/button_notifications"
+            android:text="@string/android_core_screen_notifications"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             style="@style/ButtonStyle"
-            app:layout_constraintTop_toBottomOf="@+id/button_snackbar"/>
+            app:layout_constraintTop_toBottomOf="@+id/button_localization"/>
 
 </android.support.constraint.ConstraintLayout>

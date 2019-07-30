@@ -6,12 +6,17 @@
 
     <!-- ANDROID CORE SCREEN-->
     <string name="android_core_screen_toast">Toasts</string>
+    <string name="android_core_screen_snackbar">Snackbars</string>
 
     <!-- ANDROID CORE: TOAST SCREEN-->
     <string name="android_core_screen_toast_simple">Simple toast</string>
     <string name="android_core_screen_toast_positioned">Positioned toast</string>
     <string name="android_core_screen_toast_custom">Custom toast</string>
 
+    <!-- ANDROID CORE: SNACKBAR SCREEN-->
+    <string name="android_core_screen_snackbar_simple">Simple snackbar</string>
+    <string name="android_core_screen_snackbar_simple_with_action">Simple snackbar with action</string>
+    <string name="android_core_screen_snackbar_simple_with_action_done">DONE</string>
 
 
 </resources>

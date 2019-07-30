@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".AndroidCoreScreenActivity">
+        tools:context=".AndroidCoreSnackbarScreenActivity"
+        android:id="@+id/container_root">
 
     <TextView
             android:layout_width="0dp"
@@ -12,24 +14,26 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:text="@string/main_screen_android_core"
+            android:text="@string/android_core_screen_snackbar"
             android:gravity="center"
-            style="@style/HeaderTextStyle" android:id="@+id/textView"/>
+            style="@style/HeaderTextStyle"
+            android:id="@+id/textView"/>
 
     <Button
-            android:id="@+id/button_toast"
-            android:text="@string/android_core_screen_toast"
+            android:id="@+id/button_snackbar_simple"
+            android:text="@string/android_core_screen_snackbar_simple"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             style="@style/ButtonStyle"
             app:layout_constraintTop_toBottomOf="@+id/textView"/>
 
     <Button
-            android:id="@+id/button_snackbar"
-            android:text="@string/android_core_screen_snackbar"
+            android:id="@+id/button_snackbar_simple_with_action"
+            android:text="@string/android_core_screen_snackbar_simple_with_action"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             style="@style/ButtonStyle"
-            app:layout_constraintTop_toBottomOf="@+id/button_toast"/>
+            app:layout_constraintTop_toBottomOf="@+id/button_snackbar_simple"/>
+
 
 </android.support.constraint.ConstraintLayout>

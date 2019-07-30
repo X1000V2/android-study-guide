@@ -12,7 +12,10 @@ class AndroidCoreScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_android_core_screen)
 
         button_toast.setOnClickListener { goToToastScreen() }
+        button_snackbar.setOnClickListener { goToSnackbarScreen() }
     }
 
     private fun goToToastScreen() = startActivity(Intent(this, AndroidCoreToastsScreenActivity::class.java))
+
+    private fun goToSnackbarScreen() = startActivity(Intent(this, AndroidCoreSnackbarScreenActivity::class.java))
 }

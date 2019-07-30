@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Android Study Guide</string>
+
+    <!-- MAIN SCREEN-->
+    <string name="main_screen_android_core">Android Core</string>
+
+    <!-- ANDROID CORE SCREEN-->
+    <string name="android_core_screen_toast">Toasts</string>
+
+    <!-- ANDROID CORE: TOAST SCREEN-->
+    <string name="android_core_screen_toast_simple">Simple toast</string>
+    <string name="android_core_screen_toast_positioned">Positioned toast</string>
+    <string name="android_core_screen_toast_custom">Custom toast</string>
+
+
+
 </resources>

@@ -8,4 +8,29 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Style header screen-->
+    <style name="HeaderTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style simple text-->
+    <style name="SimpleTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">40sp</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Style button-->
+    <style name="ButtonStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">#2E64BA</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
 </resources>

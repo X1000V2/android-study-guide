@@ -7,4 +7,11 @@
     <!-- ANDROID CORE SCREEN-->
     <string name="android_core_screen_toast">Toasts</string>
 
+    <!-- ANDROID CORE: TOAST SCREEN-->
+    <string name="android_core_screen_toast_simple">Simple toast</string>
+    <string name="android_core_screen_toast_positioned">Positioned toast</string>
+    <string name="android_core_screen_toast_custom">Custom toast</string>
+
+
+
 </resources>

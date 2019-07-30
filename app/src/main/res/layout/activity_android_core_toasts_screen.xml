@@ -18,4 +18,28 @@
             style="@style/HeaderTextStyle"
             android:id="@+id/textView"/>
 
+    <Button
+            android:id="@+id/button_toast_simple"
+            android:text="@string/android_core_screen_toast_simple"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+    <Button
+            android:id="@+id/button_toast_positioned"
+            android:text="@string/android_core_screen_toast_positioned"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/button_toast_simple"/>
+
+    <Button
+            android:id="@+id/button_toast_custom"
+            android:text="@string/android_core_screen_toast_custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/button_toast_positioned"/>
+
 </android.support.constraint.ConstraintLayout>

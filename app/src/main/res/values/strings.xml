@@ -7,6 +7,7 @@
     <!-- ANDROID CORE SCREEN-->
     <string name="android_core_screen_toast">Toasts</string>
     <string name="android_core_screen_snackbar">Snackbars</string>
+    <string name="android_core_screen_localization">Localization</string>
 
     <!-- ANDROID CORE: TOAST SCREEN-->
     <string name="android_core_screen_toast_simple">Simple toast</string>
@@ -17,6 +18,11 @@
     <string name="android_core_screen_snackbar_simple">Simple snackbar</string>
     <string name="android_core_screen_snackbar_simple_with_action">Simple snackbar with action</string>
     <string name="android_core_screen_snackbar_simple_with_action_done">DONE</string>
+
+    <!-- ANDROID CORE: LOCALIZATION SCREEN-->
+    <string name="android_core_screen_localization_literal">Localization text: </string>
+    <string name="android_core_screen_localization_info">Try to change device language to see changes. English and Spanish are availables.</string>
+    <string name="android_core_screen_localization_value_example">en</string>
 
 
 </resources>

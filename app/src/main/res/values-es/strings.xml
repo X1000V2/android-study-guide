@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Android Study Guide</string>
+
+    <!-- MAIN SCREEN-->
+    <string name="main_screen_android_core">Android Core</string>
+
+    <!-- ANDROID CORE SCREEN-->
+    <string name="android_core_screen_toast">Toasts</string>
+    <string name="android_core_screen_snackbar">Snackbars</string>
+    <string name="android_core_screen_localization">Localización</string>
+
+    <!-- ANDROID CORE: TOAST SCREEN-->
+    <string name="android_core_screen_toast_simple">Toast simplet</string>
+    <string name="android_core_screen_toast_positioned">Toast posicionado</string>
+    <string name="android_core_screen_toast_custom">Toast personalizado</string>
+
+    <!-- ANDROID CORE: SNACKBAR SCREEN-->
+    <string name="android_core_screen_snackbar_simple">Snackbar simple</string>
+    <string name="android_core_screen_snackbar_simple_with_action">Snackbar simple con evento</string>
+    <string name="android_core_screen_snackbar_simple_with_action_done">HECHO</string>
+
+    <!-- ANDROID CORE: LOCALIZATION SCREEN-->
+    <string name="android_core_screen_localization_literal">Texto de localización: </string>
+    <string name="android_core_screen_localization_info">Intenta cambiar el idioma del dispositivo para ver cambios. Inglés y Español están disponibles</string>
+    <string name="android_core_screen_localization_value_example">en</string>
+</resources>

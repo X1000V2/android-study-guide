@@ -13,9 +13,12 @@ class AndroidCoreScreenActivity : AppCompatActivity() {
 
         button_toast.setOnClickListener { goToToastScreen() }
         button_snackbar.setOnClickListener { goToSnackbarScreen() }
+        button_localization.setOnClickListener { goToLocalizationScreen() }
     }
 
     private fun goToToastScreen() = startActivity(Intent(this, AndroidCoreToastsScreenActivity::class.java))
 
     private fun goToSnackbarScreen() = startActivity(Intent(this, AndroidCoreSnackbarScreenActivity::class.java))
+
+    private fun goToLocalizationScreen() = startActivity(Intent(this, AndroidCoreLozalizationScreenActivity::class.java))
 }

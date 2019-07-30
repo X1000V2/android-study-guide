@@ -32,4 +32,12 @@
             style="@style/ButtonStyle"
             app:layout_constraintTop_toBottomOf="@+id/button_toast"/>
 
+    <Button
+            android:id="@+id/button_localization"
+            android:text="@string/android_core_screen_localization"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/button_snackbar"/>
+
 </android.support.constraint.ConstraintLayout>

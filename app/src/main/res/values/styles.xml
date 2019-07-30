@@ -17,7 +17,7 @@
 
     <!-- Style simple text-->
     <style name="SimpleTextStyle" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="android:textSize">40sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:typeface">monospace</item>
     </style>
 

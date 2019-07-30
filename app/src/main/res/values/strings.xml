@@ -8,6 +8,7 @@
     <string name="android_core_screen_toast">Toasts</string>
     <string name="android_core_screen_snackbar">Snackbars</string>
     <string name="android_core_screen_localization">Localization</string>
+    <string name="android_core_screen_notifications">Notifications</string>
 
     <!-- ANDROID CORE: TOAST SCREEN-->
     <string name="android_core_screen_toast_simple">Simple toast</string>
@@ -23,6 +24,14 @@
     <string name="android_core_screen_localization_literal">Localization text: </string>
     <string name="android_core_screen_localization_info">Try to change device language to see changes. English and Spanish are availables.</string>
     <string name="android_core_screen_localization_value_example">en</string>
+
+    <!-- ANDROID CORE: NOTIFICATION SCREEN-->
+    <string name="android_core_screen_notification_simple">Simple notification</string>
+    <string name="android_core_screen_notification_simple_text">Simple notification text</string>
+    <string name="android_core_screen_notification_simple_text_content">Simple notification text content</string>
+    <string name="android_core_screen_notification_loading">Loading notification</string>
+    <string name="android_core_screen_notification_loading_text">Loading notification text</string>
+    <string name="android_core_screen_notification_loading_content">Loading notification text content</string>
 
 
 </resources>

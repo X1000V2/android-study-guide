@@ -9,13 +9,15 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".AndroidCoreNotificationsScreenActivity">
+        <activity android:name=".androidCore.jetpack.AndroidCoreJetpackWorkManagerActivity">
         </activity>
-        <activity android:name=".AndroidCoreLozalizationScreenActivity">
+        <activity android:name=".androidCore.AndroidCoreLozalizationScreenActivity">
         </activity>
-        <activity android:name=".AndroidCoreSnackbarScreenActivity">
+        <activity android:name=".androidCore.AndroidCoreSnackbarScreenActivity">
         </activity>
-        <activity android:name=".AndroidCoreToastsScreenActivity">
+        <activity android:name=".androidCore.AndroidCoreToastsScreenActivity">
+        </activity>
+        <activity android:name=".androidCore.AndroidCoreJetpackScreenActivity">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

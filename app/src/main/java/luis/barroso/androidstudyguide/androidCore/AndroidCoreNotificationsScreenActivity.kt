@@ -1,4 +1,4 @@
-package luis.barroso.androidstudyguide
+package luis.barroso.androidstudyguide.androidCore
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.activity_android_core_notifications_screen
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
+import luis.barroso.androidstudyguide.R
 
 class AndroidCoreNotificationsScreenActivity : AppCompatActivity() {
 
@@ -41,9 +42,15 @@ class AndroidCoreNotificationsScreenActivity : AppCompatActivity() {
 
     private fun showSimpleNotification() {
 
-        createNotificationChannel(CHANEL_ID, CHANNEL_NAME, CHANNEL_DESCRIPTION)
+        createNotificationChannel(
+            CHANEL_ID,
+            CHANNEL_NAME,
+            CHANNEL_DESCRIPTION
+        )
 
-        var builder = NotificationCompat.Builder(this, CHANEL_ID)
+        var builder = NotificationCompat.Builder(this,
+            CHANEL_ID
+        )
             .setSmallIcon(R.drawable.ic_android)
             .setContentTitle(getText(R.string.android_core_screen_notification_simple_text))
             .setContentText(getText(R.string.android_core_screen_notification_simple_text_content))
@@ -56,9 +63,15 @@ class AndroidCoreNotificationsScreenActivity : AppCompatActivity() {
     }
 
     private fun showLoadingNotification() {
-        createNotificationChannel(CHANEL_ID_LOADING, CHANNEL_NAME_LOADING, CHANNEL_DESCRIPTION_LOADING)
+        createNotificationChannel(
+            CHANEL_ID_LOADING,
+            CHANNEL_NAME_LOADING,
+            CHANNEL_DESCRIPTION_LOADING
+        )
 
-        val builder = NotificationCompat.Builder(this, CHANEL_ID_LOADING).apply {
+        val builder = NotificationCompat.Builder(this,
+            CHANEL_ID_LOADING
+        ).apply {
             setContentTitle(getText(R.string.android_core_screen_notification_loading_text))
             setContentText(getText(R.string.android_core_screen_notification_loading_content))
             setSmallIcon(R.drawable.ic_android)

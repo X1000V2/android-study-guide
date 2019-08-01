@@ -1,16 +1,12 @@
-package luis.barroso.androidstudyguide
+package luis.barroso.androidstudyguide.androidCore
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_android_core_toasts_screen.*
-import android.widget.TextView
-
+import luis.barroso.androidstudyguide.R
 
 
 class AndroidCoreToastsScreenActivity : AppCompatActivity() {
@@ -26,7 +22,9 @@ class AndroidCoreToastsScreenActivity : AppCompatActivity() {
 
     private fun showToast(type: TOAST_TYPE) {
         when(type){
-            TOAST_TYPE.SIMPLE -> Toast.makeText(this, getText(R.string.android_core_screen_toast_simple), Toast.LENGTH_SHORT).show()
+            TOAST_TYPE.SIMPLE -> Toast.makeText(this, getText(
+                R.string.android_core_screen_toast_simple
+            ), Toast.LENGTH_SHORT).show()
             TOAST_TYPE.POSITIONED -> {
                 val toast = Toast.makeText(this, getText(R.string.android_core_screen_toast_positioned), Toast.LENGTH_SHORT)
                 toast.setGravity(Gravity.TOP,0,0)
@@ -35,7 +33,10 @@ class AndroidCoreToastsScreenActivity : AppCompatActivity() {
             TOAST_TYPE.CUSTOM -> {
 
                 val inflater = layoutInflater
-                val layout = inflater.inflate(R.layout.custom_toast_layout, findViewById<ViewGroup>(R.id.custom_toast_container))
+                val layout = inflater.inflate(
+                    R.layout.custom_toast_layout, findViewById<ViewGroup>(
+                        R.id.custom_toast_container
+                    ))
 
                 with(Toast(applicationContext)){
                     setGravity(Gravity.CENTER_VERTICAL, 0, 0)

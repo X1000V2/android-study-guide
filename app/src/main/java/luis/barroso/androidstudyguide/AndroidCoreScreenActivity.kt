@@ -1,8 +1,8 @@
 package luis.barroso.androidstudyguide
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_android_core_screen.*
 import luis.barroso.androidstudyguide.androidCore.*
 

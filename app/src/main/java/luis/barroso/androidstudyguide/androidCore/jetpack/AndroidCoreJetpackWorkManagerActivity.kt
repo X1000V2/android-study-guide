@@ -1,7 +1,7 @@
 package luis.barroso.androidstudyguide.androidCore.jetpack
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import luis.barroso.androidstudyguide.R
 
 class AndroidCoreJetpackWorkManagerActivity : AppCompatActivity() {

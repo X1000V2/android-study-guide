@@ -1,8 +1,8 @@
 package luis.barroso.androidstudyguide.androidCore
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_android_core_snackbar_screen.*
 import luis.barroso.androidstudyguide.R
 

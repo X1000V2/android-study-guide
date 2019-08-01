@@ -1,10 +1,10 @@
 package luis.barroso.androidstudyguide.androidCore
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_android_core_toasts_screen.*
 import luis.barroso.androidstudyguide.R
 

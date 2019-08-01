@@ -36,5 +36,10 @@
 
     <!-- ANDROID CORE: JETPACK SCREEN-->
     <string name="android_core_screen_jetpack_work_manager">WorkManager</string>
+    <string name="android_core_screen_jetpack_work_manager_info">La tarea empieza y actualiza el texto después de 5 segundos.</string>
+    <string name="android_core_screen_jetpack_work_manager_task_1">Empezar tarea</string>
+    <string name="android_core_screen_jetpack_work_manager_task_todo">No empezado</string>
+    <string name="android_core_screen_jetpack_work_manager_task_doing">Realizando</string>
+    <string name="android_core_screen_jetpack_work_manager_task_done">Hecho</string>
 
 </resources>

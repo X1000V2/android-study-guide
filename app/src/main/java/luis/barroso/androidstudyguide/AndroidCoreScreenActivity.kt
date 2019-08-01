@@ -1,9 +1,10 @@
 package luis.barroso.androidstudyguide
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_android_core_screen.*
+import luis.barroso.androidstudyguide.androidCore.*
 
 class AndroidCoreScreenActivity : AppCompatActivity() {
 
@@ -15,6 +16,7 @@ class AndroidCoreScreenActivity : AppCompatActivity() {
         button_snackbar.setOnClickListener { goToSnackbarScreen() }
         button_localization.setOnClickListener { goToLocalizationScreen() }
         button_notifications.setOnClickListener { goToNotificationsScreen() }
+        button_jetpack.setOnClickListener { goToJetpackScreen() }
     }
 
     private fun goToToastScreen() = startActivity(Intent(this, AndroidCoreToastsScreenActivity::class.java))
@@ -24,4 +26,6 @@ class AndroidCoreScreenActivity : AppCompatActivity() {
     private fun goToLocalizationScreen() = startActivity(Intent(this, AndroidCoreLozalizationScreenActivity::class.java))
 
     private fun goToNotificationsScreen() = startActivity(Intent(this, AndroidCoreNotificationsScreenActivity::class.java))
+
+    private fun goToJetpackScreen() = startActivity(Intent(this, AndroidCoreJetpackScreenActivity::class.java))
 }

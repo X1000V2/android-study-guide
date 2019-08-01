@@ -1,7 +1,7 @@
-package luis.barroso.androidstudyguide
+package luis.barroso.androidstudyguide.androidCore
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import luis.barroso.androidstudyguide.R
 
 class AndroidCoreLozalizationScreenActivity : AppCompatActivity() {

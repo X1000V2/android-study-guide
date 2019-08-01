@@ -1,9 +1,10 @@
-package luis.barroso.androidstudyguide
+package luis.barroso.androidstudyguide.androidCore
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.design.widget.Snackbar
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_android_core_snackbar_screen.*
+import luis.barroso.androidstudyguide.R
 
 class AndroidCoreSnackbarScreenActivity : AppCompatActivity() {
 
@@ -17,7 +18,9 @@ class AndroidCoreSnackbarScreenActivity : AppCompatActivity() {
 
     private fun showSnackbar(type: SNACKBAR_TYPE) {
         when(type){
-            SNACKBAR_TYPE.SIMPLE -> Snackbar.make(container_root, getString(R.string.android_core_screen_snackbar_simple), Snackbar.LENGTH_LONG).show()
+            SNACKBAR_TYPE.SIMPLE -> Snackbar.make(container_root, getString(
+                R.string.android_core_screen_snackbar_simple
+            ), Snackbar.LENGTH_LONG).show()
             SNACKBAR_TYPE.SIMPLE_WITH_ACTION -> {
                 val snackbarWithAction = Snackbar.make(container_root, getString(R.string.android_core_screen_snackbar_simple), Snackbar.LENGTH_LONG)
                 snackbarWithAction.setAction(getString(R.string.android_core_screen_snackbar_simple_with_action_done)){

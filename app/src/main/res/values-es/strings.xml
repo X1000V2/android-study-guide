@@ -9,6 +9,7 @@
     <string name="android_core_screen_snackbar">Snackbars</string>
     <string name="android_core_screen_localization">Localización</string>
     <string name="android_core_screen_notifications">Notificaciones</string>
+    <string name="android_core_screen_jetpack">Jetpack</string>
 
     <!-- ANDROID CORE: TOAST SCREEN-->
     <string name="android_core_screen_toast_simple">Toast simplet</string>
@@ -32,4 +33,13 @@
     <string name="android_core_screen_notification_loading">Notificacion de progreso</string>
     <string name="android_core_screen_notification_loading_text">Texto de notificacion de progreso</string>
     <string name="android_core_screen_notification_loading_content">Contenido de notificacion de progreso</string>
+
+    <!-- ANDROID CORE: JETPACK SCREEN-->
+    <string name="android_core_screen_jetpack_work_manager">WorkManager</string>
+    <string name="android_core_screen_jetpack_work_manager_info">La tarea empieza y actualiza el texto después de 5 segundos.</string>
+    <string name="android_core_screen_jetpack_work_manager_task_1">Empezar tarea</string>
+    <string name="android_core_screen_jetpack_work_manager_task_todo">No empezado</string>
+    <string name="android_core_screen_jetpack_work_manager_task_doing">Realizando</string>
+    <string name="android_core_screen_jetpack_work_manager_task_done">Hecho</string>
+
 </resources>

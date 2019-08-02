@@ -42,4 +42,12 @@
     <string name="android_core_screen_jetpack_work_manager_task_doing">Realizando</string>
     <string name="android_core_screen_jetpack_work_manager_task_done">Hecho</string>
 
+    <!-- ANDROID CORE: JETPACK SCREEN-->
+    <string name="android_core_screen_jetpack_room">ROOM</string>
+    <string name="android_core_screen_jetpack_room_info">Añade usuarios con el siguiente formulario y prueba a cerrar la app y volver para ver la persistencia de datos.</string>
+    <string name="android_core_screen_jetpack_room_add_user">Añadir usuario</string>
+    <string name="android_core_screen_jetpack_room_name_place_holder">Nombre</string>
+    <string name="android_core_screen_jetpack_room_subname_place_holder">Apellido</string>
+    <string name="android_core_screen_jetpack_room_age_place_holder">Edad</string>
+
 </resources>

@@ -21,9 +21,19 @@
     <Button
             android:id="@+id/button_work_manager"
             android:text="@string/android_core_screen_jetpack_work_manager"
+            android:layout_margin="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             style="@style/ButtonStyle"
             app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+    <Button
+            android:id="@+id/button_room"
+            android:text="@string/android_core_screen_jetpack_room"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/button_work_manager"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

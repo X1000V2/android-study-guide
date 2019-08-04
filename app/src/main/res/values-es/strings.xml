@@ -49,5 +49,6 @@
     <string name="android_core_screen_jetpack_room_name_place_holder">Nombre</string>
     <string name="android_core_screen_jetpack_room_subname_place_holder">Apellido</string>
     <string name="android_core_screen_jetpack_room_age_place_holder">Edad</string>
+    <string name="android_core_screen_jetpack_room_error_empty_fields">Rellena todos los campos</string>
 
 </resources>

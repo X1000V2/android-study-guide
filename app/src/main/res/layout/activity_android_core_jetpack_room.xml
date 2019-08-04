@@ -60,7 +60,7 @@
             app:layout_constraintStart_toEndOf="@+id/textInputLayout"
             app:layout_constraintHorizontal_bias="0.5">
         <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_input_edit_text_subname"
+                android:id="@+id/text_input_edit_text_last_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
     </com.google.android.material.textfield.TextInputLayout>

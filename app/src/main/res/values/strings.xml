@@ -38,10 +38,20 @@
 
     <!-- ANDROID CORE: JETPACK SCREEN-->
     <string name="android_core_screen_jetpack_work_manager">WorkManager</string>
-    <string name="android_core_screen_jetpack_work_manager_info">The task starts and updates the text after 5 seconds.</string>
+    <string name="android_core_screen_jetpack_work_manager_info">The task starts and updates the text after 5 seconds.
+    </string>
     <string name="android_core_screen_jetpack_work_manager_task_1">Start task</string>
     <string name="android_core_screen_jetpack_work_manager_task_todo">Todo</string>
     <string name="android_core_screen_jetpack_work_manager_task_doing">Doing</string>
     <string name="android_core_screen_jetpack_work_manager_task_done">Done</string>
+
+    <!-- ANDROID CORE: JETPACK SCREEN-->
+    <string name="android_core_screen_jetpack_room">ROOM</string>
+    <string name="android_core_screen_jetpack_room_info">Add users with the form bellow and try to close the app and return to this window to see persistence data management. </string>
+    <string name="android_core_screen_jetpack_room_add_user">Add user</string>
+    <string name="android_core_screen_jetpack_room_name_place_holder">Name</string>
+    <string name="android_core_screen_jetpack_room_subname_place_holder">Subname</string>
+    <string name="android_core_screen_jetpack_room_age_place_holder">Age</string>
+    <string name="android_core_screen_jetpack_room_error_empty_fields">Fill all the fields</string>
 
 </resources>

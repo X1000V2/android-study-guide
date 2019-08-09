@@ -21,7 +21,9 @@ import luis.barroso.androidstudyguide.androidCore.jetpack.room.UserEntity
 
 class AndroidCoreJetpackRoom : AppCompatActivity() {
 
-    private val adapter = UserAdapter(emptyList())
+    private val adapter = UserAdapter(emptyList()){user ->
+        deleteUserFromDataBase(user)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -74,6 +76,12 @@ class AndroidCoreJetpackRoom : AppCompatActivity() {
         text_input_edit_text_name.text?.clear()
         text_input_edit_text_last_name.text?.clear()
         text_input_edit_text_age.text?.clear()
+    }
+
+    private fun deleteUserFromDataBase(user: UserEntity){
+        RoomDatabaseManager.deleteuser(this,user){
+            getAllUsersFromDataBase()
+        }
     }
 
     fun Activity.hideKeyboard() {

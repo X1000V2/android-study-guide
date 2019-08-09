@@ -40,12 +40,22 @@ class RoomDatabaseManager {
         }
 
         fun getUsers(context: Context, success:(result: List<UserEntity>) -> Unit){
-            GlobalScope.launch() {
+            GlobalScope.launch {
                 val result = getInstance(context)?.userDao()?.getAll()
 
                 withContext(Dispatchers.Main) {
                     // update UI here
                     success(result?.toMutableList()?: emptyList())
+                }
+            }
+        }
+
+        fun deleteuser(context: Context, user: UserEntity, success: () -> Unit){
+
+            GlobalScope.launch {
+                getInstance(context)?.userDao()?.delete(user)
+                withContext(Dispatchers.Main) {
+                    success()
                 }
             }
         }

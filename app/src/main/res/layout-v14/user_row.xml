@@ -28,7 +28,8 @@
             android:layout_marginStart="10dp"
             app:layout_constraintStart_toEndOf="@+id/image_view_avatar"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toTopOf="@+id/text_view_user_last_name"/>
+            app:layout_constraintBottom_toTopOf="@+id/text_view_user_last_name"
+            app:layout_constraintEnd_toStartOf="@+id/item_view_remove_item" android:layout_marginEnd="8dp"/>
 
     <TextView
             android:id="@+id/text_view_user_last_name"
@@ -39,7 +40,8 @@
             android:layout_marginStart="10dp"
             app:layout_constraintStart_toEndOf="@+id/image_view_avatar"
             app:layout_constraintTop_toBottomOf="@+id/text_view_user_name"
-            app:layout_constraintBottom_toTopOf="@+id/text_view_user_age"/>
+            app:layout_constraintBottom_toTopOf="@+id/text_view_user_age"
+            app:layout_constraintEnd_toStartOf="@+id/item_view_remove_item" android:layout_marginEnd="8dp"/>
 
     <TextView
             android:id="@+id/text_view_user_age"
@@ -50,7 +52,8 @@
             android:layout_marginStart="10dp"
             app:layout_constraintTop_toBottomOf="@+id/text_view_user_last_name"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/image_view_avatar"/>
+            app:layout_constraintStart_toEndOf="@+id/image_view_avatar"
+            app:layout_constraintEnd_toStartOf="@+id/item_view_remove_item" android:layout_marginEnd="8dp"/>
 
     <ImageView
             android:id="@+id/item_view_remove_item"

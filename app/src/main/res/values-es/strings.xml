@@ -51,4 +51,7 @@
     <string name="android_core_screen_jetpack_room_age_place_holder">Edad</string>
     <string name="android_core_screen_jetpack_room_error_empty_fields">Rellena todos los campos</string>
 
+    <!-- ANDROID CORE: NAVIGATION SCREEN-->
+    <string name="android_core_screen_jetpack_navigation">Navigation</string>
+
 </resources>

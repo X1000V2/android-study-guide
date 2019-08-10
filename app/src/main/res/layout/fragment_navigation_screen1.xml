@@ -20,6 +20,45 @@
                 android:gravity="center"
                 style="@style/HeaderTextStyle"/>
 
+        <TextView
+                android:id="@+id/text_view_info"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                android:text="@string/android_core_screen_jetpack_navigation_screen_1_info"
+                android:gravity="center"
+                style="@style/SimpleTextStyle" app:layout_constraintTop_toBottomOf="@+id/textView"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/android_core_screen_jetpack_navigation_screen_1_info_hint"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/textInputLayout"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toBottomOf="@+id/text_view_info">
+
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/text_input_edit_text_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+                android:id="@+id/button_navigation_main_go_to_screen_2"
+                android:text="@string/android_core_screen_jetpack_navigation_main_go_to_screen_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                style="@style/ButtonStyle"
+                app:layout_constraintTop_toBottomOf="@+id/textInputLayout"/>
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

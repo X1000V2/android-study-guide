@@ -18,7 +18,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:text="@string/android_core_screen_jetpack_navigation_main"
                 android:gravity="center"
-                style="@style/SimpleTextStyle" app:layout_constraintBottom_toBottomOf="parent"/>
+                style="@style/HeaderTextStyle"/>
 
         <Button
                 android:id="@+id/button_navigation_main_go_to_screen_1"

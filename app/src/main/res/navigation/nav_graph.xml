@@ -13,5 +13,13 @@
     </fragment>
     <fragment android:id="@+id/navigationScreen1Fragment"
               android:name="luis.barroso.androidstudyguide.NavigationScreen1Fragment"
-              android:label="fragment_navigation_screen1" tools:layout="@layout/fragment_navigation_screen1"/>
+              android:label="fragment_navigation_screen1" tools:layout="@layout/fragment_navigation_screen1">
+        <action android:id="@+id/action_navigationScreen1Fragment_to_navigationScreen2Fragment"
+                app:destination="@id/navigationScreen2Fragment"/>
+    </fragment>
+    <fragment android:id="@+id/navigationScreen2Fragment"
+              android:name="luis.barroso.androidstudyguide.NavigationScreen2Fragment"
+              android:label="fragment_navigation_screen2" tools:layout="@layout/fragment_navigation_screen2">
+        <argument android:name="textReceived" app:argType="string" android:defaultValue='""'/>
+    </fragment>
 </navigation>

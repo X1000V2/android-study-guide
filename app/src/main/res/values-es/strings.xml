@@ -53,5 +53,8 @@
 
     <!-- ANDROID CORE: NAVIGATION SCREEN-->
     <string name="android_core_screen_jetpack_navigation">Navigation</string>
+    <string name="android_core_screen_jetpack_navigation_main">Pantalla inicial Navigation</string>
+    <string name="android_core_screen_jetpack_navigation_main_go_to_screen_1">Ir a pantalla 1</string>
+    <string name="android_core_screen_jetpack_navigation_screen_1">Pantalla 1</string>
 
 </resources>

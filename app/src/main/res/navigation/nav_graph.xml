@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@id/navigationMainFragment">
+
+    <fragment android:id="@+id/navigationMainFragment"
+              android:name="luis.barroso.androidstudyguide.androidCore.jetpack.navigation.NavigationMainFragment"
+              android:label="fragment_navigation_main"
+              tools:layout="@layout/fragment_navigation_main">
+        <action android:id="@+id/action_navigationMainFragment_to_navigationScreen1Fragment"
+                app:destination="@+id/navigationScreen1Fragment"/>
+    </fragment>
+    <fragment android:id="@+id/navigationScreen1Fragment"
+              android:name="luis.barroso.androidstudyguide.NavigationScreen1Fragment"
+              android:label="fragment_navigation_screen1" tools:layout="@layout/fragment_navigation_screen1">
+        <action android:id="@+id/action_navigationScreen1Fragment_to_navigationScreen2Fragment"
+                app:destination="@id/navigationScreen2Fragment"/>
+    </fragment>
+    <fragment android:id="@+id/navigationScreen2Fragment"
+              android:name="luis.barroso.androidstudyguide.NavigationScreen2Fragment"
+              android:label="fragment_navigation_screen2" tools:layout="@layout/fragment_navigation_screen2">
+        <argument android:name="textReceived" app:argType="string" android:defaultValue='""'/>
+    </fragment>
+</navigation>

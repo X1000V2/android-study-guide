@@ -47,11 +47,24 @@
 
     <!-- ANDROID CORE: JETPACK SCREEN-->
     <string name="android_core_screen_jetpack_room">ROOM</string>
-    <string name="android_core_screen_jetpack_room_info">Add users with the form bellow and try to close the app and return to this window to see persistence data management. </string>
+    <string name="android_core_screen_jetpack_room_info">Add users with the form bellow and try to close the app and
+        return to this window to see persistence data management.
+    </string>
     <string name="android_core_screen_jetpack_room_add_user">Add user</string>
     <string name="android_core_screen_jetpack_room_name_place_holder">Name</string>
     <string name="android_core_screen_jetpack_room_subname_place_holder">Subname</string>
     <string name="android_core_screen_jetpack_room_age_place_holder">Age</string>
     <string name="android_core_screen_jetpack_room_error_empty_fields">Fill all the fields</string>
+
+    <!-- ANDROID CORE: NAVIGATION SCREEN-->
+    <string name="android_core_screen_jetpack_navigation">Navigation</string>
+    <string name="android_core_screen_jetpack_navigation_main">Main navigation screen</string>
+    <string name="android_core_screen_jetpack_navigation_main_go_to_screen_1">Go to screen 1</string>
+    <string name="android_core_screen_jetpack_navigation_screen_1">Screen 1</string>
+    <string name="android_core_screen_jetpack_navigation_screen_2">Screen 2</string>
+    <string name="android_core_screen_jetpack_navigation_screen_2_reveived_text">Text received</string>
+    <string name="android_core_screen_jetpack_navigation_main_go_to_screen_2">Go to screen 2</string>
+    <string name="android_core_screen_jetpack_navigation_screen_1_info">Insert a text in the field and navigate to next screen. The navigation will use direcctions to send the value as a argument to screen 2.</string>
+    <string name="android_core_screen_jetpack_navigation_screen_1_info_hint">Insert value</string>
 
 </resources>

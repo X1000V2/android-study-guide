@@ -56,5 +56,13 @@
     <string name="android_core_screen_jetpack_navigation_main">Pantalla inicial Navigation</string>
     <string name="android_core_screen_jetpack_navigation_main_go_to_screen_1">Ir a pantalla 1</string>
     <string name="android_core_screen_jetpack_navigation_screen_1">Pantalla 1</string>
+    <string name="android_core_screen_jetpack_navigation_screen_2">Pantalla 2</string>
+    <string name="android_core_screen_jetpack_navigation_screen_2_reveived_text">Texto recivido</string>
+    <string name="android_core_screen_jetpack_navigation_main_go_to_screen_2">Ir a pantalla 2</string>
+    <string name="android_core_screen_jetpack_navigation_screen_1_info">Inserte un texto en el campo y navegue hasta la siguiente pantalla. Navigation usará direcctions para enviar el valor a la pantalla 2.</string>
+    <string name="android_core_screen_jetpack_navigation_screen_1_info_hint">Inserte valor</string>
+
+    <!-- ANDROID CORE: VIEWMODEL SCREEN-->
+    <string name="android_core_screen_jetpack_viewmodel">Viewmodel</string>
 
 </resources>

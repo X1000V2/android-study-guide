@@ -8,6 +8,7 @@ import luis.barroso.androidstudyguide.R
 import luis.barroso.androidstudyguide.androidCore.jetpack.AndroidCoreJetpackNavigationActivity
 import luis.barroso.androidstudyguide.androidCore.jetpack.AndroidCoreJetpackRoom
 import luis.barroso.androidstudyguide.androidCore.jetpack.AndroidCoreJetpackWorkManagerActivity
+import luis.barroso.androidstudyguide.androidCore.jetpack.viewmodel.AndroidCoreJetpackViewmodelActivity
 
 class AndroidCoreJetpackScreenActivity : AppCompatActivity() {
 
@@ -18,6 +19,7 @@ class AndroidCoreJetpackScreenActivity : AppCompatActivity() {
         button_work_manager.setOnClickListener { goToWorkManagerScreen() }
         button_room.setOnClickListener { goToRoomScreen() }
         button_navigation.setOnClickListener { goToNavigationScreen() }
+        button_viewmodel.setOnClickListener { goToViewmodeScreen() }
     }
 
     private fun goToWorkManagerScreen() = startActivity(Intent(this, AndroidCoreJetpackWorkManagerActivity::class.java))
@@ -25,4 +27,6 @@ class AndroidCoreJetpackScreenActivity : AppCompatActivity() {
     private fun goToRoomScreen() = startActivity(Intent(this, AndroidCoreJetpackRoom::class.java))
 
     private fun goToNavigationScreen() = startActivity(Intent(this, AndroidCoreJetpackNavigationActivity::class.java))
+
+    private fun goToViewmodeScreen() = startActivity(Intent(this, AndroidCoreJetpackViewmodelActivity::class.java))
 }

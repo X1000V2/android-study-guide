@@ -44,5 +44,13 @@
             app:layout_constraintStart_toStartOf="parent"
             style="@style/ButtonStyle"
             app:layout_constraintTop_toBottomOf="@+id/button_room"/>
+    <Button
+            android:id="@+id/button_viewmodel"
+            android:text="@string/android_core_screen_jetpack_viewmodel"
+            android:layout_margin="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/button_room"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

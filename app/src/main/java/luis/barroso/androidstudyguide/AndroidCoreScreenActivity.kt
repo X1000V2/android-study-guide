@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_android_core_screen.*
 import luis.barroso.androidstudyguide.androidCore.*
-import luis.barroso.androidstudyguide.androidCore.jetpack.jobScheduler.AndroidCoreJobSchedulerActivity
+import luis.barroso.androidstudyguide.androidCore.jobScheduler.AndroidCoreJobSchedulerActivity
 
 class AndroidCoreScreenActivity : AppCompatActivity() {
 

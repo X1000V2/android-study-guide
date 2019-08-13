@@ -1,4 +1,4 @@
-package luis.barroso.androidstudyguide.androidCore.jetpack
+package luis.barroso.androidstudyguide.androidCore.jetpack.workmanager
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

@@ -10,15 +10,17 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".androidCore.jetpack.jobScheduler.AndroidCoreJobSchedulerActivity">
+        <activity android:name=".androidCore.jobScheduler.AndroidCoreJobSchedulerSucessActivity">
+        </activity>
+        <activity android:name=".androidCore.jobScheduler.AndroidCoreJobSchedulerActivity">
         </activity>
         <activity android:name=".androidCore.jetpack.viewmodel.AndroidCoreJetpackViewmodelActivity">
         </activity>
-        <activity android:name=".androidCore.jetpack.AndroidCoreJetpackNavigationActivity">
+        <activity android:name=".androidCore.jetpack.navigation.AndroidCoreJetpackNavigationActivity">
         </activity>
-        <activity android:name=".androidCore.jetpack.AndroidCoreJetpackRoom">
+        <activity android:name=".androidCore.jetpack.room.AndroidCoreJetpackRoom">
         </activity>
-        <activity android:name=".androidCore.jetpack.AndroidCoreJetpackWorkManagerActivity">
+        <activity android:name=".androidCore.jetpack.workmanager.AndroidCoreJetpackWorkManagerActivity">
         </activity>
         <activity android:name=".androidCore.AndroidCoreNotificationsScreenActivity">
         </activity>
@@ -39,6 +41,10 @@
         </activity>
         <activity android:name=".AndroidCoreScreenActivity">
         </activity>
+
+        <service
+                android:name=".androidCore.jobScheduler.NotificationJobService"
+                android:permission="android.permission.BIND_JOB_SERVICE"/>
     </application>
 
 </manifest>

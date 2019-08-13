@@ -5,9 +5,9 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_android_core_jetpack_screen.*
 import luis.barroso.androidstudyguide.R
-import luis.barroso.androidstudyguide.androidCore.jetpack.AndroidCoreJetpackNavigationActivity
-import luis.barroso.androidstudyguide.androidCore.jetpack.AndroidCoreJetpackRoom
-import luis.barroso.androidstudyguide.androidCore.jetpack.AndroidCoreJetpackWorkManagerActivity
+import luis.barroso.androidstudyguide.androidCore.jetpack.navigation.AndroidCoreJetpackNavigationActivity
+import luis.barroso.androidstudyguide.androidCore.jetpack.room.AndroidCoreJetpackRoom
+import luis.barroso.androidstudyguide.androidCore.jetpack.workmanager.AndroidCoreJetpackWorkManagerActivity
 import luis.barroso.androidstudyguide.androidCore.jetpack.viewmodel.AndroidCoreJetpackViewmodelActivity
 
 class AndroidCoreJetpackScreenActivity : AppCompatActivity() {

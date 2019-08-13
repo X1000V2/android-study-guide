@@ -1,13 +1,13 @@
-package luis.barroso.androidstudyguide.androidCore.jetpack.jobScheduler
+package luis.barroso.androidstudyguide.androidCore.jetpack.navigation
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import luis.barroso.androidstudyguide.R
 
-class AndroidCoreJobSchedulerActivity : AppCompatActivity() {
+class AndroidCoreJetpackNavigationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_android_core_job_scheduler)
+        setContentView(R.layout.activity_android_core_jetpack_navigation)
     }
 }

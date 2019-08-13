@@ -1,23 +1,15 @@
-package luis.barroso.androidstudyguide.androidCore.jetpack
+package luis.barroso.androidstudyguide.androidCore.jetpack.room
 
 import android.app.Activity
 import android.content.Context
 import android.os.Bundle
-import android.os.Handler
 import android.view.View
 import android.view.inputmethod.InputMethodManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_android_core_jetpack_room.*
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
-import kotlinx.coroutines.withContext
 import luis.barroso.androidstudyguide.R
-import luis.barroso.androidstudyguide.androidCore.jetpack.room.RoomDatabaseManager
-import luis.barroso.androidstudyguide.androidCore.jetpack.room.UserAdapter
-import luis.barroso.androidstudyguide.androidCore.jetpack.room.UserEntity
 
 class AndroidCoreJetpackRoom : AppCompatActivity() {
 

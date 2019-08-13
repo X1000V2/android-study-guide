@@ -87,5 +87,8 @@
     <string name="android_core_screen_jetpack_job_scheduler_requires_device_idle">Device Idle</string>
     <string name="android_core_screen_jetpack_job_scheduler_requires_device_charging">Device charging</string>
     <string name="android_core_screen_jetpack_job_scheduler_override_deadline">Override deadline</string>
+    <string name="android_core_screen_jetpack_job_scheduler_schedule_job">Schedule job</string>
+    <string name="android_core_screen_jetpack_job_scheduler_cancel_job">Cancel job</string>
+    <string name="android_core_screen_jetpack_job_scheduler_success">The job was executed correctly.</string>
 
 </resources>

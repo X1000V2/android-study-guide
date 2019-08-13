@@ -1,7 +1,5 @@
-package luis.barroso.androidstudyguide
+package luis.barroso.androidstudyguide.androidCore.jetpack.navigation
 
-import android.content.Context
-import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -9,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import kotlinx.android.synthetic.main.fragment_navigation_screen1.*
+import luis.barroso.androidstudyguide.R
 
 class NavigationScreen1Fragment : Fragment() {
 
@@ -24,7 +23,10 @@ class NavigationScreen1Fragment : Fragment() {
 
     private fun goToScreen2(){
 
-        val action = NavigationScreen1FragmentDirections.actionNavigationScreen1FragmentToNavigationScreen2Fragment(textReceived = text_input_edit_text_name.text.toString())
+        val action =
+            NavigationScreen1FragmentDirections.actionNavigationScreen1FragmentToNavigationScreen2Fragment(
+                textReceived = text_input_edit_text_name.text.toString()
+            )
         view?.findNavController()?.navigate(action)
     }
 }

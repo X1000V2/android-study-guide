@@ -56,4 +56,12 @@
             style="@style/ButtonStyle"
             app:layout_constraintTop_toBottomOf="@+id/button_notifications"/>
 
+    <Button
+            android:id="@+id/button_job_scheduler"
+            android:text="@string/android_core_screen_jetpack_job_scheduler"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/ButtonStyle"
+            app:layout_constraintTop_toBottomOf="@+id/button_jetpack"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

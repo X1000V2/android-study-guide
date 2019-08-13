@@ -71,8 +71,21 @@
 
     <!-- ANDROID CORE: VIEWMODEL SCREEN-->
     <string name="android_core_screen_jetpack_viewmodel">Viewmodel</string>
-    <string name="android_core_screen_jetpack_viewmodel_info">This screen uses Viewmodel. Try to change the value in field and see the changes in text at the top.</string>
+    <string name="android_core_screen_jetpack_viewmodel_info">This screen uses Viewmodel. Try to change the value in
+        field and see the changes in text at the top.
+    </string>
     <string name="android_core_screen_jetpack_viewmodel_text_change">Initial text</string>
     <string name="android_core_screen_jetpack_viewmodel_button_save">Save value in viewmodel</string>
+
+    <!-- ANDROID CORE: JOB SCHEDULER SCREEN-->
+    <string name="android_core_screen_jetpack_job_scheduler">Job Scheduler</string>
+    <string name="android_core_screen_jetpack_job_scheduler_network">Network Type Required</string>
+    <string name="android_core_screen_jetpack_job_scheduler_network_option_none">None</string>
+    <string name="android_core_screen_jetpack_job_scheduler_network_option_any">Any</string>
+    <string name="android_core_screen_jetpack_job_scheduler_network_option_wifi">Wifi</string>
+    <string name="android_core_screen_jetpack_job_scheduler_requires">Requires</string>
+    <string name="android_core_screen_jetpack_job_scheduler_requires_device_idle">Device Idle</string>
+    <string name="android_core_screen_jetpack_job_scheduler_requires_device_charging">Device charging</string>
+    <string name="android_core_screen_jetpack_job_scheduler_override_deadline">Override deadline</string>
 
 </resources>

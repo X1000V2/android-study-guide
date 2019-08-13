@@ -10,6 +10,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".androidCore.jetpack.jobScheduler.AndroidCoreJobSchedulerActivity">
+        </activity>
         <activity android:name=".androidCore.jetpack.viewmodel.AndroidCoreJetpackViewmodelActivity">
         </activity>
         <activity android:name=".androidCore.jetpack.AndroidCoreJetpackNavigationActivity">
